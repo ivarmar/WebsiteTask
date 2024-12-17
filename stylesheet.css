@@ -1,0 +1,97 @@
+body {
+    text-align: center;
+    background-color: lightblue;
+}
+
+.nav {
+    text-align: right;
+}
+
+.header {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+    color: yellow;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 5px;
+    font-size: 14px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    font-size: 14px;
+    background-color: #f0a500;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: lightblue;
+}
+
+.search-bar button:hover {
+    background-color: #e08f00;
+}
+
+#search-btn img {
+    width: 15px;
+    height: 15px;
+
+}
+
+
+#main {
+    font-size: 15px;
+    font-family: italic;
+    text-align: center;
+    padding: 0x;
+    color: blue;
+}
+
+.footer {
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: black;
+    color: blue;
+}
+
+.footer :hover {
+    color: yellow;
+}
+
+.picture img {
+    width: 500px;
+    height: 500px;
+    border-radius: 8px;
+}
